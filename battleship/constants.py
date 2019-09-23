@@ -1,0 +1,40 @@
+# battleship board
+BOARD_WIDTH = 10
+BOARD_HEIGHT = 10
+BOARD_DIRECTION_HORIZONTAL = 0
+BOARD_DIRECTION_VERTICAL = 1
+
+# type of ships
+SHIP_CARRIER = 'Carrier'
+SHIP_BATTLESHIP = 'Battleship'
+SHIP_SUBMARINE = 'Submarine'
+SHIP_DESTROYER = 'Destroyer'
+SHIP_CRUISER = 'Cruiser'
+
+# Ship Size
+SHIP_SIZE_CARRIER = 5
+SHIP_SIZE_BATTLESHIP = 4
+SHIP_SIZE_SUBMARINE = 3
+SHIP_SIZE_DESTROYER = 2
+SHIP_SIZE_CRUISER = 3
+
+# Ship Status
+SHIP_OK = 0
+SHIP_ATTAKED = 1
+SHIP_DESTROYED = 2
+
+# shoot states
+SHOOT_STATE_SUCCESSFUL = 1
+SHOOT_STATE_MISSED = 2
+
+# battleship states
+GAME_STATE_PLAYING = 0
+GAME_STATE_FINISHED = 1
+
+# battleship player names
+GAME_PLAYER_NAME_COMPUTER = 'Computer'
+GAME_PLAYER_NAME_HUMAN = 'HumanPlayer'
+
+# battleship player types
+GAME_PLAYER_TYPE_COMPUTER = 'ComputerPlayer'
+GAME_PLAYER_TYPE_HUMAN = 'HumanPlayer'
